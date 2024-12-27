@@ -1,0 +1,35 @@
+.progress-style {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.table-row {
+    height: 62px;
+}
+
+.table-cell {
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    text-align: center; */
+    min-width: 250px;
+    padding: 8px;
+}
+
+.text-field {
+    height: 50px;
+}
+
+/* .icon-button {
+    margin-left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.table-cell:hover .icon-button {
+    opacity: 1;
+    pointer-events: auto;
+} */
