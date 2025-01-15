@@ -6,7 +6,7 @@ import useCharacter from '../useCharacter/useCharacter';
 import { fields } from '../CharacterConstants/CharacterConstants';
 
 function CharacterTableBody() {
-  const {data, setData} = useCharacter()
+  const { data, setData } = useCharacter();
   const [editingCell, setEditingCell] = useState<{ rowIndex: number; field: string } | null>(null);
   const [currentValue, setCurrentValue] = useState<string>('');
   const [hoveredCell, setHoveredCell] = useState<{ rowIndex: number; field: string } | null>(null);
@@ -68,7 +68,8 @@ function CharacterTableBody() {
                     <IconButton
                       className={`icon-button ${hoveredCell?.rowIndex === rowIndex && hoveredCell?.field === field ? 'visible' : ''}`}
                       size="small"
-                      onClick={() => handleEdit(rowIndex, field, value[field])}>
+                      onClick={() => handleEdit(rowIndex, field, value[field])}
+                    >
                       <EditIcon fontSize="inherit" />
                     </IconButton>
                   )}

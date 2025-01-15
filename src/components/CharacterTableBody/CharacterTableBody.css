@@ -7,24 +7,26 @@
 }
 
 .table-cell {
-    display: flex;
-    align-items: center;
-    min-width: 250px;
-    padding: 8px;
-  }
-  
-  .text-field {
-    height: 50px;
-  }
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+  padding: 8px;
+}
 
-  .icon-button {
-    margin-left: 10px;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out,
-  }
-  
-  .icon-button.visible {
-    visibility: visible;
-    opacity: 1;
-  }
+.text-field {
+  height: 50px;
+}
+
+.icon-button {
+  margin-left: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+}
+
+.icon-button.visible {
+  visibility: visible;
+  opacity: 1;
+}

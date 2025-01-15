@@ -6,7 +6,7 @@ import useCharacter from '../useCharacter/useCharacter';
 import './CharacterTable.css';
 
 function CharacterTable() {
-  const { loading } = useCharacter()
+  const { loading } = useCharacter();
 
   return (
     <Container>
