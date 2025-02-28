@@ -6,3 +6,9 @@ export interface ICharacter {
 }
 
 export const fields: string[] = ['name', 'status', 'species'];
+
+export type TModal = {
+  initialText: string;
+  onSave: (newText: string) => void;
+  onCancel: () => void;
+}

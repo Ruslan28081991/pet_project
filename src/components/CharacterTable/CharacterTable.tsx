@@ -3,6 +3,7 @@ import { Container, Table, TableContainer, CircularProgress } from '@mui/materia
 import CharacterTableHeader from '../CharacterTableHeader/CharacterTableHeader';
 import CharacterTableBody from '../CharacterTableBody/CharacterTableBody';
 import useCharacter from '../useCharacter/useCharacter';
+import Modal from '../Modal/Modal';
 import './CharacterTable.css';
 
 function CharacterTable() {
