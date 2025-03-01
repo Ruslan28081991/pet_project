@@ -85,4 +85,5 @@ function CharacterTableBody() {
   );
 }
 
+
 export default CharacterTableBody;
